@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "examples",
+  "info": {
+    "name": "example",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "example": {
+      "collection": "technique",
+      "via": "examples",
+      "dominant": true
+    }
+  }
+}

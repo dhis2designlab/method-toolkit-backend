@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "techniques",
+  "info": {
+    "name": "technique",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "examples": {
+      "via": "example",
+      "collection": "example"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
