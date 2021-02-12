@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Activities",
+  "info": {
+    "name": "Activity",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Intro": {
+      "type": "text"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "techniques": {
+      "collection": "technique",
+      "via": "activity"
+    }
+  }
+}
