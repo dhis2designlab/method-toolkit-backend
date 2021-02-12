@@ -11,13 +11,13 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Intro": {
+    "intro": {
       "type": "text"
     },
-    "Content": {
+    "content": {
       "type": "richtext"
     },
     "techniques": {
