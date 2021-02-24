@@ -21,8 +21,13 @@
       "type": "richtext"
     },
     "techniques": {
-      "collection": "technique",
-      "via": "activity"
+      "collection": "technique"
+    },
+    "activities": {
+      "collection": "activity"
+    },
+    "examples": {
+      "collection": "example"
     }
   }
 }

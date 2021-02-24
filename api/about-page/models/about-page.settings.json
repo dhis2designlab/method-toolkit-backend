@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "examples",
+  "kind": "singleType",
+  "collectionName": "about_pages",
   "info": {
-    "name": "example",
+    "name": "about_page",
     "description": ""
   },
   "options": {
@@ -13,9 +13,6 @@
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "intro": {
-      "type": "text"
     },
     "content": {
       "type": "richtext"
