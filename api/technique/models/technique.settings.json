@@ -12,24 +12,44 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "intro": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "examples": {
-      "via": "example",
       "collection": "example"
     },
     "slug": {
       "type": "string"
     },
-    "activity": {
-      "via": "techniques",
-      "model": "activity"
+    "minimum_time": {
+      "type": "decimal",
+      "max": 99,
+      "min": 0
+    },
+    "maximum_time": {
+      "type": "decimal",
+      "min": 0,
+      "max": 99
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "Easy",
+        "Moderate",
+        "Hard"
+      ],
+      "required": false
+    },
+    "pairs_well_with": {
+      "collection": "technique"
     }
   }
 }
