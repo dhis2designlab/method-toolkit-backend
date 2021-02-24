@@ -12,15 +12,15 @@
   "devDependencies": {},
   "dependencies": {
     "slugify": "^1.4.6",
-    "strapi": "^3.4.6",
-    "strapi-admin": "^3.4.6",
-    "strapi-connector-mongoose": "^3.4.6",
-    "strapi-plugin-content-manager": "^3.4.6",
-    "strapi-plugin-content-type-builder": "^3.4.6",
-    "strapi-plugin-email": "^3.4.6",
-    "strapi-plugin-upload": "^3.4.6",
-    "strapi-plugin-users-permissions": "^3.4.6",
-    "strapi-utils": "^3.4.6"
+    "strapi": "^3.5",
+    "strapi-admin": "^3.5",
+    "strapi-connector-mongoose": "^3.5",
+    "strapi-plugin-content-manager": "^3.5",
+    "strapi-plugin-content-type-builder": "^3.5",
+    "strapi-plugin-email": "^3.5",
+    "strapi-plugin-upload": "^3.5",
+    "strapi-plugin-users-permissions": "^3.5",
+    "strapi-utils": "^3.5"
   },
   "author": {
     "name": "A Strapi developer"
