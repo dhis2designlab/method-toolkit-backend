@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "boom": "^7.3.0",
+    "@hapi/boom": "^9.1.1",
     "slugify": "^1.4.6",
     "strapi": "^3.5",
     "strapi-admin": "^3.5",
