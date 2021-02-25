@@ -6,7 +6,7 @@
  */
 
 const slugify = require("slugify");
-const Boom = require("Boom");
+const Boom = require("boom");
 
 const generateSlug = (data) => {
   if (data.title) {
