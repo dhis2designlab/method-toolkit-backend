@@ -50,6 +50,15 @@
     },
     "pairs_well_with": {
       "collection": "technique"
+    },
+    "phase": {
+      "type": "enumeration",
+      "enum": [
+        "Insight",
+        "Analysis",
+        "Prototype",
+        "Evaluation"
+      ]
     }
   }
 }
