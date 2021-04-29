@@ -58,7 +58,8 @@
         "Analysis",
         "Prototype",
         "Evaluation"
-      ]
+      ],
+      "required": true
     },
     "materials": {
       "type": "text"
