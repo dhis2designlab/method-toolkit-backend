@@ -59,6 +59,9 @@
         "Prototype",
         "Evaluation"
       ]
+    },
+    "materials": {
+      "type": "text"
     }
   }
 }
