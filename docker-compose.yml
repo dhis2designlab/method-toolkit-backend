@@ -1,0 +1,15 @@
+version: "3.8"
+services: 
+  method-toolkit-backend-prod:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes: 
+      - ".:/method-toolkit-backend"
+      - "method-toolkit-backend/node_modules"
+    ports: 
+      - 1337:1337
+    environment: 
+      - NODE_ENV=production
+    container_name: method_toolkit_backend_prod_container
+    command: yarn start
