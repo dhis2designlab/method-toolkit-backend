@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_common_riches",
+  "info": {
+    "name": "rich",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "rich": {
+      "type": "richtext"
+    }
+  }
+}

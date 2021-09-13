@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "techniques",
   "info": {
-    "name": "technique",
+    "name": "methods",
     "description": ""
   },
   "options": {
@@ -63,6 +63,23 @@
     },
     "materials": {
       "type": "text"
+    },
+    "stats": {
+      "type": "component",
+      "repeatable": false,
+      "component": "method.stats"
+    },
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "common.image",
+        "common.cover-photo",
+        "common.rich",
+        "common.slides",
+        "common.text",
+        "common.video",
+        "common.sub-section"
+      ]
     }
   }
 }

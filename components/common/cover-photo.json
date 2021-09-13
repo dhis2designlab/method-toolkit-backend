@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_cover_photos",
+  "info": {
+    "name": "cover_photo",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "cover_photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
