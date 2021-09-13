@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_method_stats",
+  "info": {
+    "name": "stats",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "minimum_time": {
+      "type": "decimal"
+    },
+    "maximum_time": {
+      "type": "decimal"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "easy",
+        "moderate",
+        "hard"
+      ]
+    },
+    "materials": {
+      "type": "text"
+    },
+    "participants": {
+      "type": "text"
+    }
+  }
+}

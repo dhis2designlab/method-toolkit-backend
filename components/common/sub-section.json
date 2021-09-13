@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_sub_sections",
+  "info": {
+    "name": "sub_section",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "sub_section_heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

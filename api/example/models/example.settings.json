@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "examples",
   "info": {
-    "name": "example",
+    "name": "user_stories",
     "description": ""
   },
   "options": {
@@ -19,6 +19,18 @@
     },
     "content": {
       "type": "richtext"
+    },
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "common.cover-photo",
+        "common.image",
+        "common.rich",
+        "common.slides",
+        "common.text",
+        "common.video",
+        "common.sub-section"
+      ]
     }
   }
 }
