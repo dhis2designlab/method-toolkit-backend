@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes: 
       - ".:/method-toolkit-backend"
-      - "method-toolkit-backend/node_modules"
+      - "/method-toolkit-backend/node_modules"
     ports: 
       - 1337:1337
     environment: 
