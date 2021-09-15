@@ -2,14 +2,14 @@ FROM strapi/base:14-alpine
 
 WORKDIR /method-toolkit-backend
 
-COPY package.json /method-toolkit-backend/package.json
-COPY yarn.lock /method-toolkit-backend/yarn.lock
+COPY ./package.json ./
+COPY ./yarn.lock ./
 
 ENV PATH /method-toolkit-backend/node_modules/.bin:$PATH
 
-RUN yarn install
-
 COPY . .
+
+RUN yarn install
 
 ENV NODE_ENV production
 
