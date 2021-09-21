@@ -28,6 +28,18 @@
     },
     "examples": {
       "collection": "example"
+    },
+    "flexible_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "common.cover-photo",
+        "common.image",
+        "common.rich",
+        "common.slides",
+        "common.sub-section",
+        "common.text",
+        "common.video"
+      ]
     }
   }
 }
