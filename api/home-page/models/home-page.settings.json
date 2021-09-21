@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "header_description": {
+      "type": "text"
+    },
+    "header_illustration": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "user_stories_header": {
+      "type": "string"
+    },
+    "user_stories_description": {
+      "type": "text"
+    }
+  }
+}
