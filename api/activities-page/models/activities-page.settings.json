@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "activities_pages",
+  "info": {
+    "name": "Activities page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "common.title-and-description",
+        "common.sub-section",
+        "common.image"
+      ]
+    }
+  }
+}

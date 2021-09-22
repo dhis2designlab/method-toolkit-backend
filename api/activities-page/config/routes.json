@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/activities-page",
+      "handler": "activities-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/activities-page",
+      "handler": "activities-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/activities-page",
+      "handler": "activities-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
