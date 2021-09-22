@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "about_pages",
+  "collectionName": "methods_pages",
   "info": {
-    "name": "About page",
-    "description": ""
+    "name": "Methods page"
   },
   "options": {
     "increments": true,
@@ -11,11 +10,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
+    "Description": {
+      "type": "text"
     }
   }
 }
