@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "activities_pages",
+  "collectionName": "methods_pages",
   "info": {
-    "name": "Activities page",
-    "description": ""
+    "name": "Methods page"
   },
   "options": {
     "increments": true,
