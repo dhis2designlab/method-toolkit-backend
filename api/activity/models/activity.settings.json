@@ -29,7 +29,7 @@
     "examples": {
       "collection": "example"
     },
-    "flexible_zone": {
+    "dynamic_zone": {
       "type": "dynamiczone",
       "components": [
         "common.cover-photo",
