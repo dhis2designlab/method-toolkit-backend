@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "techniques",
+  "collectionName": "methods",
   "info": {
     "name": "methods",
     "description": ""
@@ -22,9 +22,6 @@
     "content": {
       "type": "richtext",
       "required": true
-    },
-    "examples": {
-      "collection": "example"
     },
     "slug": {
       "type": "string"
@@ -48,7 +45,7 @@
       ],
       "required": false
     },
-    "pairs_well_with": {
+    "methods": {
       "collection": "technique"
     },
     "phase": {
@@ -61,9 +58,6 @@
       ],
       "required": true
     },
-    "materials": {
-      "type": "text"
-    },
     "stats": {
       "type": "component",
       "repeatable": false,
@@ -73,13 +67,20 @@
       "type": "dynamiczone",
       "components": [
         "common.image",
-        "common.cover-photo",
         "common.rich",
         "common.slides",
         "common.text",
         "common.video",
         "common.sub-section"
       ]
+    },
+    "materials": {
+      "collection": "materials"
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cover-photo"
     }
   }
 }

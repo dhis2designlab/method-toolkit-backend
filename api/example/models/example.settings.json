@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "examples",
+  "collectionName": "user_stories",
   "info": {
     "name": "user_stories",
     "description": ""
@@ -23,7 +23,6 @@
     "dynamic_zone": {
       "type": "dynamiczone",
       "components": [
-        "common.cover-photo",
         "common.image",
         "common.rich",
         "common.slides",
@@ -32,10 +31,19 @@
         "common.sub-section"
       ]
     },
-    "categories": {
-      "collection": "categories",
-      "via": "user_stories",
-      "dominant": true
+    "location": {
+      "model": "locations"
+    },
+    "activities": {
+      "collection": "activity"
+    },
+    "methods": {
+      "collection": "technique"
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cover-photo"
     }
   }
 }

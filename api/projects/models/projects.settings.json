@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "projects",
   "info": {
-    "name": "Categories"
+    "name": "Projects"
   },
   "options": {
     "increments": true,
@@ -10,12 +10,8 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "category_name": {
+    "name": {
       "type": "string"
-    },
-    "user_stories": {
-      "via": "categories",
-      "collection": "example"
     }
   }
 }
