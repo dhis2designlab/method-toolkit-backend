@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "user_stories",
   "info": {
-    "name": "user_stories",
+    "name": "user stories",
     "description": ""
   },
   "options": {
@@ -42,7 +42,7 @@
     },
     "cover": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "common.cover-photo"
     }
   }

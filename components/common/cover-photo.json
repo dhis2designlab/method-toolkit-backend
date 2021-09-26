@@ -19,9 +19,6 @@
       "required": false,
       "pluginOptions": {}
     },
-    "title": {
-      "type": "string"
-    },
     "short_description": {
       "type": "text"
     }
