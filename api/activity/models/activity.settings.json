@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "Activities",
+  "collectionName": "activities",
   "info": {
     "name": "Activity",
     "description": ""
@@ -40,6 +40,11 @@
         "common.text",
         "common.video"
       ]
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cover-photo"
     }
   }
 }

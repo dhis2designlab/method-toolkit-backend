@@ -1,8 +1,9 @@
 {
-  "collectionName": "components_common_cover_photos",
+  "collectionName": "components_common_cover",
   "info": {
-    "name": "cover_photo",
-    "icon": "image"
+    "name": "cover",
+    "icon": "info-circle",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,7 +16,14 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
+    },
+    "short_description": {
+      "type": "text"
     }
   }
 }
