@@ -80,7 +80,8 @@
     "cover": {
       "type": "component",
       "repeatable": false,
-      "component": "common.cover-photo"
+      "component": "common.cover-photo",
+      "required": true
     }
   }
 }
