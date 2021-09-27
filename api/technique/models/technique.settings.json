@@ -15,48 +15,11 @@
       "type": "string",
       "required": true
     },
-    "intro": {
-      "type": "text",
-      "required": true
-    },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
     "slug": {
       "type": "string"
     },
-    "minimum_time": {
-      "type": "decimal",
-      "max": 99,
-      "min": 0
-    },
-    "maximum_time": {
-      "type": "decimal",
-      "min": 0,
-      "max": 99
-    },
-    "difficulty": {
-      "type": "enumeration",
-      "enum": [
-        "Easy",
-        "Moderate",
-        "Hard"
-      ],
-      "required": false
-    },
     "methods": {
       "collection": "technique"
-    },
-    "phase": {
-      "type": "enumeration",
-      "enum": [
-        "Insight",
-        "Analysis",
-        "Prototype",
-        "Evaluation"
-      ],
-      "required": true
     },
     "stats": {
       "type": "component",
@@ -81,6 +44,12 @@
       "type": "component",
       "repeatable": false,
       "component": "common.cover-photo",
+      "required": true
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "method.header",
       "required": true
     }
   }
