@@ -11,34 +11,20 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "intro": {
-      "type": "text"
-    },
-    "content": {
-      "type": "richtext"
-    },
-    "techniques": {
+    "methods": {
       "collection": "technique"
     },
     "activities": {
       "collection": "activity"
     },
-    "examples": {
+    "user_stories": {
       "collection": "example"
     },
     "dynamic_zone": {
       "type": "dynamiczone",
       "components": [
-        "common.cover-photo",
         "common.image",
-        "common.rich",
-        "common.slides",
-        "common.sub-section",
-        "common.text",
-        "common.video"
+        "common.rich"
       ]
     },
     "cover": {
@@ -46,6 +32,18 @@
       "repeatable": false,
       "component": "common.cover-photo",
       "required": true
+    },
+    "projects": {
+      "collection": "projects",
+      "via": "activities",
+      "dominant": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

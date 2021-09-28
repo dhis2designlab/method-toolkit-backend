@@ -12,6 +12,10 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "activities": {
+      "via": "projects",
+      "collection": "activity"
     }
   }
 }
