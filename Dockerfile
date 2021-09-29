@@ -1,4 +1,4 @@
-FROM strapi/base:14-alpine
+FROM node:alpine:3.11
 
 WORKDIR /method-toolkit-backend
 
