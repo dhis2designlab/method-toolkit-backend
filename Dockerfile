@@ -1,4 +1,4 @@
-FROM node:alpine:3.11
+FROM node:lts-alpine3.14
 
 WORKDIR /method-toolkit-backend
 
