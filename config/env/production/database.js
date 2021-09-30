@@ -19,9 +19,9 @@ module.exports = ({ env }) => ({
         "pool": {
           "min": env.int('KNEX_POOL_MIN_CONNECTIONS', 0),
           "max": env.int('KNEX_POOL_MAX_CONNECTIONS', 50),
-          "idleTimeoutMillis": env.int('KNEX_POOL_IDLE_TIMEOUT_MILLIS', 30000),
-          "createTimeoutMillis": env.int('KNEX_POOL_CREATE_TIMEOUT_MILLIS', 30000),
-          "acquireTimeoutMillis": env.int('KNEX_POOL_AQUIRE_TIMOUT_MILLIS', 30000)
+          "idleTimeoutMillis": env.int('KNEX_POOL_IDLE_TIMEOUT_MILLIS', 60000),
+          "createTimeoutMillis": env.int('KNEX_POOL_CREATE_TIMEOUT_MILLIS', 60000),
+          "acquireTimeoutMillis": env.int('KNEX_POOL_AQUIRE_TIMOUT_MILLIS', 60000)
         }
       },
     },
