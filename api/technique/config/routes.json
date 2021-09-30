@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/techniques",
+      "path": "/methods",
       "handler": "technique.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/techniques/count",
+      "path": "/methods/count",
       "handler": "technique.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/techniques/:id",
+      "path": "/methods/:id",
       "handler": "technique.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/techniques",
+      "path": "/methods",
       "handler": "technique.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/techniques/:id",
+      "path": "/methods/:id",
       "handler": "technique.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/techniques/:id",
+      "path": "/methods/:id",
       "handler": "technique.delete",
       "config": {
         "policies": []
