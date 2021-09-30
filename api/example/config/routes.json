@@ -2,7 +2,7 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/examples",
+      "path": "/user-stories",
       "handler": "example.find",
       "config": {
         "policies": []
@@ -10,7 +10,7 @@
     },
     {
       "method": "GET",
-      "path": "/examples/count",
+      "path": "/user-stories/count",
       "handler": "example.count",
       "config": {
         "policies": []
@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/examples/:id",
+      "path": "/user-stories/:id",
       "handler": "example.findOne",
       "config": {
         "policies": []
@@ -26,7 +26,7 @@
     },
     {
       "method": "POST",
-      "path": "/examples",
+      "path": "/user-stories",
       "handler": "example.create",
       "config": {
         "policies": []
@@ -34,7 +34,7 @@
     },
     {
       "method": "PUT",
-      "path": "/examples/:id",
+      "path": "/user-stories/:id",
       "handler": "example.update",
       "config": {
         "policies": []
@@ -42,7 +42,7 @@
     },
     {
       "method": "DELETE",
-      "path": "/examples/:id",
+      "path": "/user-stories/:id",
       "handler": "example.delete",
       "config": {
         "policies": []
