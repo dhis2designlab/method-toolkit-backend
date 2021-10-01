@@ -4,7 +4,6 @@ module.exports = ({ env }) => ({
       enabled: env('ENABLE_CACHE', true),
       models: [
         "activities",
-        "user-stories",
         "methods",
         "materials",
         "locations",

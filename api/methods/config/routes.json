@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/user-stories",
-      "handler": "example.find",
+      "path": "/methods",
+      "handler": "methods.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/user-stories/count",
-      "handler": "example.count",
+      "path": "/methods/count",
+      "handler": "methods.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/user-stories/:id",
-      "handler": "example.findOne",
+      "path": "/methods/:id",
+      "handler": "methods.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/user-stories",
-      "handler": "example.create",
+      "path": "/methods",
+      "handler": "methods.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/user-stories/:id",
-      "handler": "example.update",
+      "path": "/methods/:id",
+      "handler": "methods.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/user-stories/:id",
-      "handler": "example.delete",
+      "path": "/methods/:id",
+      "handler": "methods.delete",
       "config": {
         "policies": []
       }

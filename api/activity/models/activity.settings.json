@@ -12,13 +12,10 @@
   },
   "attributes": {
     "methods": {
-      "collection": "technique"
+      "collection": "methods"
     },
     "activities": {
       "collection": "activity"
-    },
-    "user_stories": {
-      "collection": "example"
     },
     "dynamic_zone": {
       "type": "dynamiczone",
