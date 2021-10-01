@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "methods",
   "info": {
-    "name": "methods",
+    "name": "Methods",
     "description": ""
   },
   "options": {
@@ -13,40 +13,40 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "slug": {
       "type": "string"
-    },
-    "methods": {
-      "collection": "technique"
     },
     "stats": {
       "type": "component",
       "repeatable": false,
       "component": "method.stats"
     },
-    "dynamic_zone": {
-      "type": "dynamiczone",
-      "components": [
-        "common.image",
-        "common.rich"
-      ]
-    },
-    "materials": {
-      "collection": "materials"
-    },
-    "cover": {
-      "type": "component",
-      "repeatable": false,
-      "component": "common.cover-photo",
-      "required": true
-    },
     "header": {
       "type": "component",
       "repeatable": false,
       "component": "method.header",
       "required": true
+    },
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "common.rich",
+        "common.image"
+      ]
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cover-photo"
+    },
+    "methods": {
+      "collection": "methods"
+    },
+    "materials": {
+      "collection": "materials"
     }
   }
 }
