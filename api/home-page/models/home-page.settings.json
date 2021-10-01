@@ -29,11 +29,12 @@
       "required": false,
       "pluginOptions": {}
     },
-    "user_stories_header": {
-      "type": "string"
-    },
-    "user_stories_description": {
-      "type": "text"
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "common.rich",
+        "common.image"
+      ]
     }
   }
 }
