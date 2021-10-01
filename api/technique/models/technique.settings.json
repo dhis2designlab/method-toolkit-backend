@@ -30,11 +30,7 @@
       "type": "dynamiczone",
       "components": [
         "common.image",
-        "common.rich",
-        "common.slides",
-        "common.text",
-        "common.video",
-        "common.sub-section"
+        "common.rich"
       ]
     },
     "materials": {
