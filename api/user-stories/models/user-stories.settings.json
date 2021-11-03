@@ -26,7 +26,7 @@
       "repeatable": false,
       "component": "common.cover-photo"
     },
-    "contact": {
+    "contacts": {
       "type": "component",
       "repeatable": true,
       "component": "common.contact"
