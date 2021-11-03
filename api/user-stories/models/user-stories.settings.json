@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_stories",
+  "info": {
+    "name": "User stories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "dynamic_zone": {
+      "type": "dynamiczone",
+      "components": [
+        "common.rich",
+        "common.image"
+      ]
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cover-photo"
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.contact"
+    }
+  }
+}

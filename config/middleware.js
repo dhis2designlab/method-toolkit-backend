@@ -7,8 +7,14 @@ module.exports = ({ env }) => ({
         "methods",
         "materials",
         "locations",
-        "projects"
+        "projects",
+        "user-stories"
       ],
     },
+    logger: {
+      level: env('LOGGER_LEVEL', 'debug'),
+      exposeInContext: env('LOGGER_EXPOSE_IN_CONTEXT', true),
+      requests: env('LOGGER_REQUESTS', false),
+    }
   },
 });
