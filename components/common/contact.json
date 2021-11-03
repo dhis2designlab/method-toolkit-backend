@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "mail-bulk"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "occupation": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

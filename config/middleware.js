@@ -7,7 +7,8 @@ module.exports = ({ env }) => ({
         "methods",
         "materials",
         "locations",
-        "projects"
+        "projects",
+        "user-stories"
       ],
     },
   },
