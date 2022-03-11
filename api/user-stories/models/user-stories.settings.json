@@ -30,6 +30,16 @@
       "type": "component",
       "repeatable": true,
       "component": "common.contact"
+    },
+    "activities": {
+      "collection": "activity",
+      "via": "user_stories",
+      "dominant": true
+    },
+    "methods": {
+      "collection": "methods",
+      "via": "user_stories",
+      "dominant": true
     }
   }
 }

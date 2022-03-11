@@ -47,6 +47,10 @@
     },
     "materials": {
       "collection": "materials"
+    },
+    "user_stories": {
+      "via": "methods",
+      "collection": "user-stories"
     }
   }
 }

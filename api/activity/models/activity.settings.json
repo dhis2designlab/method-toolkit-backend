@@ -41,6 +41,10 @@
     },
     "description": {
       "type": "text"
+    },
+    "user_stories": {
+      "via": "activities",
+      "collection": "user-stories"
     }
   }
 }
